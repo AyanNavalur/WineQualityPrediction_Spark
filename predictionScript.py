@@ -48,7 +48,7 @@ def main():
     print('F1 accuracy score:', evaluator.evaluate(predictions))
 
     # writing accuracy to file
-    string = 'F1 accuracy score:' + str(evaluator.evaluate(predictions))
+    string = 'F1 accuracy score: ' + str(evaluator.evaluate(predictions))
     with open("./accuracy.txt", "w") as f:
         f.write(string)  # check this once
 
